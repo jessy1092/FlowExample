@@ -1,0 +1,20 @@
+{
+  "name": "1_hello_world",
+  "version": "0.0.1",
+  "description": "It's the flow examples for personal practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "flow": "flow",
+    "test": "npm run flow"
+  },
+  "author": "Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "flow-bin": "^0.31.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.14.0"
+  }
+}
